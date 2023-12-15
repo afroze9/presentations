@@ -1,19 +1,15 @@
 <script setup lang="ts">
-import Progress from './components/Progress.vue'
+import Progress from './components/Progress.vue';
 import { computed } from 'vue'
 
 const num = computed(() => {
-  const p = (($slidev.nav.currentPage - 2) / ($slidev.nav.total -2)) * 100
+  const p = (($slidev.nav.currentPage -1) / ($slidev.nav.total -1)) * 100
   return Math.floor(p)
 })
 </script>
 
 <template>
-  <div v-if="![1, 2, $slidev.nav.total + 1].includes($slidev.nav.currentPage)">
-    <div class="top absolute top-0 right-0">
-      <Progress :targetValue="num"/>
-    </div>
-  </div>
+<Progress :percentage="num"/>
 </template>
 
 <style>
