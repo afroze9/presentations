@@ -29,6 +29,8 @@ hideInToc: true
 
 # 1. Introduction to Domain-Driven Design
 
+<v-clicks depth="2">
+  
 - What is DDD?
 - Why is it important?
 - Key concepts
@@ -36,15 +38,21 @@ hideInToc: true
   - Entities
   - Value Objects
   - Aggregates
+  
+</v-clicks>
+
 
 ---
 
 # 2. Building Blocks of DDD
+<v-clicks depth="2">
+
 - Ubiquitous Language
 - Bounded Contexts
 - Entities vs. Value Objects
 - Aggregates and Repositories
 - Domain Events
+</v-clicks>
 
 ---
 
