@@ -30,7 +30,19 @@ src: ./pages/introduction.md
 ---
 
 ---
-src: ./pages/building-blocks.md
+src: ./pages/ubiquitous-language.md
+---
+
+---
+src: ./pages/bounded-context.md
+---
+
+---
+src: ./pages/entity-va-aggregates.md
+---
+
+---
+src: ./pages/domain-events.md
 ---
 
 ---
@@ -38,16 +50,17 @@ src: ./pages/strategic-design.md
 ---
 
 ---
-src: ./pages/tactical-design.md
+src: ./pages/implementing-ddd.md
 ---
 
 ---
-src: ./pages/implementation-considerations.md
+src: ./pages/benefits.md
 ---
 
 ---
-src: ./pages/case-studies.md
+src: ./pages/challenges.md
 ---
+
 
 ---
 src: ./pages/questions.md

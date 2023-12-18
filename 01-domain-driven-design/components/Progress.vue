@@ -31,7 +31,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 5px;
   background-color: #f0f0f0;
 }
 
@@ -40,7 +40,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 5px;
   background-color: #000000;
 }
 
