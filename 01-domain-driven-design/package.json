@@ -13,6 +13,7 @@
     "@slidev/theme-seriph": "latest"
   },
   "devDependencies": {
-    "less": "^4.2.0"
+    "less": "^4.2.0",
+    "playwright-chromium": "^1.40.1"
   }
 }
