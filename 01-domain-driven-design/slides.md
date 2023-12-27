@@ -58,5 +58,9 @@ src: ./pages/benefits.md
 ---
 
 ---
+src: ./pages/challenges.md
+---
+
+---
 src: ./pages/questions.md
 ---
