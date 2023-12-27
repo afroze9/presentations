@@ -26,58 +26,29 @@ hideInToc: true
 <Toc />
 
 ---
-
-# 1. Introduction to Clean Architecture
-
-- What is Clean Architecture?
-- A brief history
-- Why is it needed?
-
+src: ./pages/introduction.md
 ---
 
-# 2. The Importance of Clean Architecture
-
-- Separation of concerns
-- Maintainability and scalability
-- Testability and dependency inversion
-
+---
+src: ./pages/importance.md
 ---
 
-# 3. Key Principles of Clean Architecture
-
-- Dependency Rule
-- Entities, Use Cases, and Interface Adapters
-- High-level policies vs. Low-level details
-- The stable core and the volatile outer layers
-
+---
+src: ./pages/key-principles.md
 ---
 
-# 4. Layers in Clean Architecture
-
-- Presentation Layer
-- Application Layer
-- Domain Layer
-- Infrastructure Layer
-
+---
+src: ./pages/layers.md
 ---
 
-# 5. Practical Implementation
-
-- Choosing technology stacks
-- Design patterns and SOLID principles
-- Examples of dependency injection
-- Code organization and project structure
-
+---
+src: ./pages/implementation.md
 ---
 
-# 6. Case Studies
-
-- Real-world examples of Clean Architecture in action
-- Success stories and challenges faced
-- Lessons learned
-
+---
+src: ./pages/case-studies.md
 ---
 
-# 7. Q&A
-
-- Your questions and discussions
+---
+src: ./pages/questions.md
+---
