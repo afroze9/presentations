@@ -4,7 +4,8 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --with-toc --output slidev-export",
+    "export:dark": "slidev export --dark --with-toc --output slidev-export-dark"
   },
   "dependencies": {
     "@slidev/cli": "^0.43.7",
