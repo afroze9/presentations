@@ -82,37 +82,13 @@ flowchart TD
 
 </div>
 
-<!-- Div 4 -->
 
-<div style="grid-area: 1 / 4 / 1 / 4;" v-click="4">
-
-## Factories
-<div style="margin-left: auto; margin-right: auto;">
-
-```mermaid
-flowchart TD
-    F1[/Order Factory\]
-```
-
-```mermaid
-flowchart TD
-    F2[/Product Factory\]
-```
-
-```mermaid
-flowchart TD
-    F3[/Payment Factory\]
-```
-
-</div>
-
-</div>
 </div>
 
 <style>
 .parent {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 24px;
   grid-row-gap: 0px;

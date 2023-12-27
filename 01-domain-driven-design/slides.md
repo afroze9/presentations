@@ -38,7 +38,7 @@ src: ./pages/bounded-context.md
 ---
 
 ---
-src: ./pages/entity-va-aggregates.md
+src: ./pages/eva.md
 ---
 
 ---
@@ -56,11 +56,6 @@ src: ./pages/implementing-ddd.md
 ---
 src: ./pages/benefits.md
 ---
-
----
-src: ./pages/challenges.md
----
-
 
 ---
 src: ./pages/questions.md

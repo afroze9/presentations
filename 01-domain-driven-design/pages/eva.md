@@ -1,12 +1,11 @@
----
-layout: three-col
-title: Entities, Value Objects, and Aggregates
----
 
-::header::
 # Entities, Value Objects, and Aggregates
 
-::left::
+<div class="eva-parent">
+
+<!-- Div 1 -->
+<div style="grid-area: 1 / 1 / 1 / 1;" v-click="1">
+
 ## Entities
 Objects that have a distinct identity
 
@@ -20,7 +19,11 @@ e.g. Product
     </template>
 </LightOrDark>
 
-::center::
+</div>
+
+<!-- Div 2 -->
+<div style="grid-area: 1 / 2 / 1 / 2;" v-click="2">
+
 ## Value Objects
 Objects without a distinct identity; defined by their attributes
 
@@ -34,8 +37,11 @@ e.g. Price
     </template>
 </LightOrDark>
 
+</div>
 
-::right::
+<!-- Div 3 -->
+<div style="grid-area: 1 / 3 / 1 / 3;" v-click="3">
+
 ## Aggregates
 Clusters of related entities and value objects
 
@@ -54,3 +60,19 @@ classDiagram
     Order: +int PaymentMethodId
 ```
 </div>
+
+
+</div>
+
+
+</div>
+
+<style>
+.eva-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 0px;
+}
+</style>

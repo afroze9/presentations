@@ -1,4 +1,4 @@
-# Events
+# Domain/Integration Events
 
 <br/>
 

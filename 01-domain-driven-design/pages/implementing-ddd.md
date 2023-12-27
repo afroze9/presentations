@@ -4,10 +4,18 @@ title: Implementing DDD
 
 # Implementing DDD
 
-1. Identify the Core Domain
-1. Create a Ubiquitous Language
-1. Define Bounded Contexts
-1. Design Entities, Value Objects, and Aggregates
-1. Implement Domain Events
-1. Apply Strategic Design Principles
+<div style="font-size: 0.8em; transform: scale(0.75); margin-top: -100px">
 
+```mermaid
+graph TD
+    A[Identify the Core Domain] -->|Inform| B[Create a Ubiquitous Language]
+    B -->|Guide| C[Define Bounded Contexts]
+    C -->|Detail| D[Design Entities, Value Objects, and Aggregates]
+    D -->|Trigger| E[Implement Domain Events]
+    E --> F[Apply Strategic Design Principles]
+    F -->|Reassess| C
+    F -->|Evolve| B
+    F -->|Refine| A
+
+```
+</div>
