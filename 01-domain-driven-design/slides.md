@@ -12,7 +12,7 @@ hideInToc: true
   <span class="font-700">
     afroze9
   </span>
-  <a href="https://github.com/afroze9" target="_blank" alt="GitHub"
+  <a href="https://github.com/afroze9/presentations" target="_blank" alt="GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
